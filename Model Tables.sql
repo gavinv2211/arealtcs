@@ -1,7 +1,7 @@
 use arealtcs
 GO
 
-IF NOT EXISTS (SELECT 1 FROM SYS.SCHEMAS WHERE [name] = 'staging')
+IF NOT EXISTS (SELECT 1 FROM SYS.SCHEMAS WHERE [name] = 'model')
                                 begin
                                 EXEC ('CREATE SCHEMA [model]')
                                 end
