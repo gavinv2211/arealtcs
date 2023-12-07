@@ -11,3 +11,6 @@ the data from staging tables gets loaded into the 3nf data model. This model can
 # 2. To do
 - Create RDS SQL Server Instance in AWS
 - Create database arealtcs
+- Run the Staging Tables.sql script
+- Run the Models Tables.sql script
+- Run the Stored Procs.sql script
