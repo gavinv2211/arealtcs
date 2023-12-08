@@ -15,7 +15,7 @@ the data from staging tables gets loaded into the 3nf data model. This model can
 - Run the Models Tables.sql script
 - Run the Stored Procs.sql script
 
-#3. Running the jupyter notebook
+#3. Running the jupyter notebook (google colab can also be used)
 - Using latest python version:
     - install jupyter notebooks: pip install jupyter
     - install pyodbc: pip install pyodbc
